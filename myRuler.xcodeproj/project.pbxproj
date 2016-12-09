@@ -13,6 +13,7 @@
 		C05DC6A21DE2ED5B0033DEF9 /* myRuler.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C05DC6A01DE2ED5B0033DEF9 /* myRuler.xcdatamodeld */; };
 		C05DC6A41DE2ED5B0033DEF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C05DC6A31DE2ED5B0033DEF9 /* Assets.xcassets */; };
 		C05DC6A71DE2ED5B0033DEF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C05DC6A51DE2ED5B0033DEF9 /* LaunchScreen.storyboard */; };
+		C07DDB2A1DF2C03C00380AFA /* ColorRulerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07DDB291DF2C03C00380AFA /* ColorRulerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C05DC6A31DE2ED5B0033DEF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C05DC6A61DE2ED5B0033DEF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C05DC6A81DE2ED5B0033DEF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C07DDB291DF2C03C00380AFA /* ColorRulerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorRulerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				C05DC6A51DE2ED5B0033DEF9 /* LaunchScreen.storyboard */,
 				C05DC6A81DE2ED5B0033DEF9 /* Info.plist */,
 				C05DC6A01DE2ED5B0033DEF9 /* myRuler.xcdatamodeld */,
+				C07DDB291DF2C03C00380AFA /* ColorRulerView.swift */,
 			);
 			path = myRuler;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C05DC69C1DE2ED5B0033DEF9 /* ViewController.swift in Sources */,
+				C07DDB2A1DF2C03C00380AFA /* ColorRulerView.swift in Sources */,
 				C05DC6A21DE2ED5B0033DEF9 /* myRuler.xcdatamodeld in Sources */,
 				C05DC69A1DE2ED5B0033DEF9 /* AppDelegate.swift in Sources */,
 			);
@@ -255,6 +259,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = myRuler/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kitrev.myRuler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -266,6 +271,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = myRuler/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kitrev.myRuler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -291,6 +297,7 @@
 				C05DC6AD1DE2ED5B0033DEF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
